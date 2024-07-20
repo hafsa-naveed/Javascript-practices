@@ -16,8 +16,8 @@ else if (num >= 50){
 else{
     grade="D"
 }  
-console.log("Your grade is " + grade); 
+alert("Your grade is " + grade); 
 }
 else{
-    console.log("Wrong input");
+    alert("Wrong input");
 }
