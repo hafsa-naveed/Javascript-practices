@@ -1,16 +1,16 @@
 var num = +prompt("Type your percentage and i'll tell you your grade accordingly.");
 
-if(num>=0 || num<=100){
- if(num>=80 && num<=100){
+if(num >= 0 && num <= 100){
+ if(num >= 80){
     grade = "A1";
 }
-else if(num>=70){
+else if(num >= 70){
  grade="A";
 }
-else if(num>=60){
+else if(num >= 60){
     grade="B";
 }
-else if (num>=50){
+else if (num >= 50){
     grade="C";
 }
 else{
